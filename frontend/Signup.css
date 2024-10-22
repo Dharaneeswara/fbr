@@ -1,0 +1,8 @@
+.input{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#eyeicon{
+    width: 30px;
+}

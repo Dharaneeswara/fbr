@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background-image: url(../Assets/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: linear-gradient(to right, #00c6ff, #0072ff); */
+    color: #ffffff;
+    margin: -10px 0px;
+    height: 100%;
+}
+.abhead{
+    background:linear-gradient(45deg, rgba(69, 37, 127, 1), rgba(255, 153, 51, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.abhead h4{
+    animation-delay: 0.5s;
+}
+
+.abhead p{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: black;
+    font-family: Houschka-medium;
+    /* background:linear-gradient(90deg, rgba(69, 37, 127, 1), rgba(255, 153, 51, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+}
+.highlights{
+    font-weight: bold;
+    
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    75% {
+        transform: translateY(-1%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.abhead{
+    animation: slideInFromBottom 1.5s ease-out;
+}

@@ -1,0 +1,11 @@
+.input{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+img{
+    width: 30px;
+}
+#eyeicon{
+    margin-left: 5px;
+}
